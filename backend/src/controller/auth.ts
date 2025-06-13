@@ -66,7 +66,7 @@ export const resetPassword = asyncErrorHandler(
             {
                 email: email.toLowerCase(),
             },
-            { password: hashedPassword },
+            { password: password },
             {
                 new: true,
             }
